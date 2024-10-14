@@ -8,7 +8,7 @@ class BookCatalogApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Katalog Buku',
+      title: 'Daftar Buku',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
         scaffoldBackgroundColor: Colors.grey[100],
@@ -24,7 +24,6 @@ class BookCatalogApp extends StatelessWidget {
   }
 }
 
-// Halaman Home: Menampilkan daftar buku
 class HomePage extends StatelessWidget {
   final List<Book> books = [
     Book(
@@ -35,7 +34,7 @@ class HomePage extends StatelessWidget {
     Book(
       'Laskar Pelangi',
       'Andrea Hirata',
-      'sebuah novel karya Andrea Hirata yang diterbitkan pada tahun 2005. Novel ini mengisahkan perjuangan sekelompok anak sekolah dari desa miskin di Belitung, Indonesia, yang meskipun dalam keterbatasan, tetap gigih untuk meraih pendidikan. Dibimbing oleh dua guru yang berdedikasi, anak-anak ini menjalin persahabatan erat dan mengatasi berbagai tantangan seperti kemiskinan, kurangnya fasilitas, dan pandangan masyarakat. Novel ini menekankan tema ketekunan, persahabatan, dan pentingnya pendidikan. Laskar Pelangi menjadi salah satu novel terpopuler di Indonesia dan telah diadaptasi ke dalam film, teater, dan berbagai bentuk lainnya.',
+      'Sebuah novel karya Andrea Hirata yang diterbitkan pada tahun 2005. Novel ini mengisahkan perjuangan sekelompok anak sekolah dari desa miskin di Belitung, Indonesia, yang meskipun dalam keterbatasan, tetap gigih untuk meraih pendidikan. Dibimbing oleh dua guru yang berdedikasi, anak-anak ini menjalin persahabatan erat dan mengatasi berbagai tantangan seperti kemiskinan, kurangnya fasilitas, dan pandangan masyarakat. Novel ini menekankan tema ketekunan, persahabatan, dan pentingnya pendidikan. Laskar Pelangi menjadi salah satu novel terpopuler di Indonesia dan telah diadaptasi ke dalam film, teater, dan berbagai bentuk lainnya.',
     ),
   ];
 
@@ -125,7 +124,6 @@ class HomePage extends StatelessWidget {
   }
 }
 
-// Halaman Detail Buku: Menampilkan informasi detail buku
 class DetailPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -143,7 +141,7 @@ class DetailPage extends StatelessWidget {
             children: [
               Center(
                 child: Hero(
-                  tag: book.title, // Add hero animation
+                  tag: book.title,
                   child: Icon(
                     Icons.book,
                     size: 100,
@@ -177,7 +175,6 @@ class DetailPage extends StatelessWidget {
   }
 }
 
-// Halaman Tentang Aplikasi: Menampilkan informasi tentang aplikasi
 class AboutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -220,7 +217,6 @@ class AboutPage extends StatelessWidget {
   }
 }
 
-// Model Buku
 class Book {
   final String title;
   final String author;
