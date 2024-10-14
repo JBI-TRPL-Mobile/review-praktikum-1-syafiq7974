@@ -1,7 +1,9 @@
 NAMA : Syafiq Burhanuddin
 KELAS : 2A TRPL
 NIM  : 362358302068
- tugas praktikum flutter 1
+tampilan
+![image](https://github.com/user-attachments/assets/32f1f4ff-1a45-4c11-a058-03eeda1a8b5f)
+tugas praktikum flutter 1
 - WIREFRAME	HOME
  ![image](https://github.com/user-attachments/assets/a89a09aa-643a-4056-9e7a-89cf05fb568f)
 - WIREFRAME	DETAIL	BUKU
