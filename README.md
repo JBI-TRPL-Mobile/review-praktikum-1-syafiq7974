@@ -1,17 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/-qXfCkxD)
-# template_project
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+NAMA : Syafiq Burhanuddin
+KELAS : 2A TRPL
+NIM  : 362358302068
+ tugas praktikum flutter 1
+- WIREFRAME	HOME
+ ![image](https://github.com/user-attachments/assets/a89a09aa-643a-4056-9e7a-89cf05fb568f)
+- WIREFRAME	DETAIL	BUKU
+  ![image](https://github.com/user-attachments/assets/77c981d4-2cc7-43f4-9739-786b423ec0ab)
+  ![image](https://github.com/user-attachments/assets/598d5fe5-7d3e-47ef-9a2b-df58ba4e20bb)
+- WIREFRAME	TENTANG	APLIKASI
+  ![image](https://github.com/user-attachments/assets/5cc6ed7c-69dd-4213-a9e7-48b16f421025)
+  
